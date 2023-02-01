@@ -25,3 +25,56 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* below this line all changes start's ^^*/
+
+/* changes on header and nav-links */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.left-links, .right-links {
+  display: flex;
+  justify-content: center;
+  gap:32px;
+  text-align: center;
+}
+
+a, ul{
+  text-decoration: none;
+  list-style: none;
+  color: rgba(0, 0, 0, 0.726)
+
+}
+
+
+/*Changes on Odin logo, search bar and buttons*/
+.content  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 10px 15px
+}
+
+/* changes on footer bar */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/*test*/
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+}
