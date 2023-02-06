@@ -45,9 +45,12 @@ input {
 a, ul{
   text-decoration: none;
   list-style: none;
-  color: rgba(0, 0, 0, 0.726)
+  color: rgba(0, 0, 0, 0.726);
+    padding-inline-start: 15px; /* aqui da espaçamento a esquerta de 15px */
+    padding-inline-end: 15px; /* aqui da espaçamento a direita de 15px */
 
 }
+
 
 
 /*Changes on Odin logo, search bar and buttons*/
